@@ -1,0 +1,26 @@
+image scaled to 1920 x 1080
+the five squares of items in the shop for processing have sive of 193 x 144
+(width x height)
+
+positions of upper left corner from right to left are
+1. 480 928
+2. 681 928
+3. 882 928
+4. 1084 928
+5. 1285 928
+
+
+
+Champ Cards still needed:
+
+	Akali
+
+	Elise
+
+	Gnar
+	
+	Karthus
+
+	Khazix
+
+	
