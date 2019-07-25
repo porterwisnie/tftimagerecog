@@ -5,7 +5,7 @@ game screenshots scaled to 1920 x 1080
 the five squares of characters in the shop for processing have size of 193 x 144
 (width x height)
 
-positions of upper left corner from right to left are
+positions of upper left corner from left to right are
 1. 480 928
 2. 681 928
 3. 882 928
