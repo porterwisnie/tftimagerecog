@@ -34,7 +34,9 @@ For example:
 		Alpha (opacity) ((I belive is always 255 in this case))
 
 
-	if every character has a **unique** combination of pixel values at the same point, only that one pixel has to be examined in order to decide between all of the champions, however this may not be the case and may require more than one pixel to make these determinations
+	if every character has a **unique** combination of pixel values at the same point,
+	only that one pixel has to be examined in order to decide between all of the champions, 
+	however this may not be the case and may require more than one pixel to make these determinations
 
 
 
