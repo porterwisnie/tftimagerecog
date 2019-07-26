@@ -12,16 +12,11 @@ positions of upper left corner from left to right are
 4. 1084 928
 5. 1285 928
 
-Still missing 4 cards:
+Still missing 1 card:
 
 
 	Karthus
 
-	Gnar
-
-	Akali
-
-	Elise
 
 After gathering all cards, attempting to minimize the number of pixels needed to be looked at to optimize recognition is the next step
 
