@@ -21,29 +21,6 @@ def plotimage(iarr):
     plt.show()
 
 
-def thresholder(iarr):
-    barr = []
-    narr = iarr.copy()
-    narr[0][0][0] = 1
-    for row in iarr:
-
-        for pix in row:
-            
-            barr.append(mean(pix[:3]))
-    balance = mean(barr)
-    
-    for row in narr:
-        for pix in row:
-            if mean(pix[:3]) > balance:
-                pix[0] = 255
-                pix[1] = 255
-                pix[2] = 255
-            else:
-                pix[0] = 0 
-                pix[1] = 0
-                pix[2] = 0
-    return narr
-
 def createnewimg(iarr,p='new.png'):
     img = Image.fromarray(np.array(iarr))
     img.save(p)
