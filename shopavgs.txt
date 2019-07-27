@@ -45,3 +45,4 @@ kennen:56
 missfortune:47
 aurelionsol:47
 kayle:65
+karthus:44

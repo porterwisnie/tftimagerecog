@@ -116,7 +116,7 @@ if __name__ == "__main__":
 
     print(imean)
     '''
-    autoadd(str(path.dirname(path.realpath(__file__)) + '/tftsamples/l1fixed'),['darius','tristana','khazix','pyke','fiora']) 
+    autoadd(str(path.dirname(path.realpath(__file__)) + '/tftsamples/League of Legends (TM) Client 7_26_2019 4_48_33 PM.png'),['veigar','ahri','volibear','varus','karthus']) 
     
     '''
     iarr = mainopen(str(path.dirname(path.realpath(__file__)) + '/tftsamples/League of Legends (TM) Client 7_21_2019 9_11_41 PM.png'))

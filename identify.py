@@ -1,7 +1,8 @@
 from process import loadarr, openavgs
-
+import shelve
 #needs to examine every pixel of every array and see if any one location has unique values for every character
 #returns locations of unique pixels
+#not worth running anymore as takes a while to process and data is held in pixeldata.txt for reference
 def singleidentifier():
     
     poss = []
@@ -25,8 +26,16 @@ def singleidentifier():
                     holder.clear()
                     poss.pop()
                     break
-    print(poss)
+    
+    with open('pixeldata.txt','w+') as op:
 
+        op.write(str(poss))
+
+
+        
+
+
+    
 #sending the index of interest responds with a dictionary of values for each character at that location
 #champion name : [red,green,blue]
 
