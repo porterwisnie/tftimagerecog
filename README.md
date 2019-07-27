@@ -12,10 +12,8 @@ positions of upper left corner from left to right are
 4. 1084 928
 5. 1285 928
 
-Still missing 1 card:
-
-
-	Karthus
+Still missing 0 cards!
+	
 
 
 After gathering all cards, attempting to minimize the number of pixels needed to be looked at to optimize recognition is the next step
@@ -33,6 +31,8 @@ For example:
 	only that one pixel has to be examined in order to decide between all of the champions, 
 	however this may not be the case and may require more than one pixel to make these determinations
 
+Chosen pixels to be analyzed from the upper left corner are 170,85 and 51,44
 
-
+Only one pixel was needed to make unique determination of character for a surprising number of pixels, but checking two
+locations is a safer option
  
