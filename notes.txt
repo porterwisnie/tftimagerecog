@@ -13,11 +13,7 @@ positions of upper left corner from right to left are
 
 Champ Cards still needed:
 
-	Akali
 
-	Elise
 
-	Gnar
-	
-	Karthus
+need to isolate what is causing the errors in recognition
 	

@@ -1,5 +1,6 @@
 from process import loadarr, openavgs
 import shelve
+from os import path
 #needs to examine every pixel of every array and see if any one location has unique values for every character
 #returns locations of unique pixels
 #not worth running anymore as takes a while to process and data is held in pixeldata.txt for reference
@@ -33,8 +34,6 @@ def singleidentifier():
 
 
         
-
-
     
 #sending the index of interest responds with a dictionary of values for each character at that location
 #champion name : [red,green,blue]
@@ -50,6 +49,23 @@ def allchampsatpix(col,row):
 
     return champrgb
 
+def rgbtochampdict(col,row):
+
+    champrgb = {}
+    champs = openavgs().keys()
+
+    for champ in champs:
+
+        champrgb[str(loadarr(champ).tolist()[row][col][:3])] = champ
+
+    return champrgb
+
+def storergbtochamp(da):
+
+    with shelve.open(path.dirname(path.realpath(__file__))+'/rgbtochampdict/rgbtochampdict') as s:
+
+        s['rgbchamp2'] = da
+
 if __name__ == "__main__":
-    
-    singleidentifier()
+   
+    storergbtochamp(rgbtochampdict(170,85))
