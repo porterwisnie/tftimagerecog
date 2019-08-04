@@ -36,3 +36,16 @@ Chosen pixels to be analyzed from the upper left corner are 170,85 and 51,44
 Only one pixel was needed to make unique determination of character for a surprising number of pixels, but checking two
 locations is a safer option
  
+# Conclusion
+
+After working on this project for a while, a few critical assumptions early on have created major issues
+
+	I assumed that the characters shop cards were fully opaque, however, the background appears to have some effect on the colors of the individual pixels
+	
+	I was only using one card per charcter for matching, but this approach was extermely faulty due to the background effecting the coloration changes in the background
+	
+	If I were to refactor everything I would create an equation that does some sort of measurement on the background and measure the offset created by the cards
+	This would allow increased accuracy with any of the backgrounds selectable with the game
+	
+	
+In conclusion, this project failed to meet my goals, but it was very informative on what small assumptions can do to a larger project
