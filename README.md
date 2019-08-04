@@ -48,4 +48,4 @@ After working on this project for a while, a few critical assumptions early on h
 * This would allow increased accuracy with any of the backgrounds selectable with the game
 	
 	
-In conclusion, this project failed to meet my goals, but it was very informative on what small assumptions can do to a larger project
+In conclusion, this project failed to meet my goals, but it was very informative on what small assumptions can do to a larger project and how a more adaptive approach can fit future cases more effectively than just something that may work now.
